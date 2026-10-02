@@ -1,5 +1,7 @@
 include LICENSE NOTICE README.md ORIGIN.md VALIDATION.md DEFENSIVE_SCOPE.md SOURCE_AUDIT.json
+include SYNTAX_VALIDATION.md CHECKER_SOURCES.json
 recursive-include licenses *.txt
 recursive-include src *.py py.typed *.json
 recursive-include tests *.py
 recursive-include .github *.yml
+recursive-include scripts *.py *.json *.patch

@@ -21,3 +21,21 @@ jobs:
       - run: python -m venv /tmp/tls-consumer
       - run: /tmp/tls-consumer/bin/pip install --no-index --no-deps dist/*.whl
       - run: cd /tmp && /tmp/tls-consumer/bin/python -I -m unittest discover -s "$GITHUB_WORKSPACE/tests" -v
+  official-syntax:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.14'
+      - name: Install compiler and development libraries
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y build-essential libssl-dev libpcre2-dev libexpat1-dev bison flex pkg-config
+      - name: Build fixed official checkers into a local prefix
+        run: python scripts/build_syntax_checkers.py --root validation-local/ci --openssl-prefix /usr --pcre-config /usr/bin/pcre2-config
+      - name: Check both profiles and reject negative controls
+        run: PYTHONPATH=src python scripts/check_official_syntax.py --build validation-local/ci --openssl /usr/bin/openssl

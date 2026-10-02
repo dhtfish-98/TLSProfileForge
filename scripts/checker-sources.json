@@ -1,0 +1,47 @@
+{
+  "description": "Fixed official-source downloads for development-only isolated syntax checks; hashes observed from HTTPS downloads, detached authenticity remains OPEN.",
+  "sources": [
+    {
+      "name": "nginx-1.28.0",
+      "url": "https://nginx.org/download/nginx-1.28.0.tar.gz",
+      "bytes": 1280111,
+      "sha256": "c6b5c6b086c0df9d3ca3ff5e084c1d0ef909e6038279c71c1c3e985f576ff76a"
+    },
+    {
+      "name": "httpd-2.4.67",
+      "url": "https://archive.apache.org/dist/httpd/httpd-2.4.67.tar.gz",
+      "bytes": 9714011,
+      "sha256": "10a578d199c3930250534fac629995f34ef7571709a7c88c45239e1fdc88cf77"
+    },
+    {
+      "name": "apr-1.7.6",
+      "url": "https://archive.apache.org/dist/apr/apr-1.7.6.tar.gz",
+      "bytes": 1138032,
+      "sha256": "6a10e7f7430510600af25fabf466e1df61aaae910bf1dc5d10c44a4433ccc81d"
+    },
+    {
+      "name": "apr-util-1.6.3",
+      "url": "https://archive.apache.org/dist/apr/apr-util-1.6.3.tar.gz",
+      "bytes": 556623,
+      "sha256": "2b74d8932703826862ca305b094eef2983c27b39d5c9414442e9976a9acf1983"
+    },
+    {
+      "name": "haproxy-3.0.10",
+      "url": "https://www.haproxy.org/download/3.0/src/haproxy-3.0.10.tar.gz",
+      "bytes": 4734325,
+      "sha256": "d1508670b6fd5839c669a0a916842f0d3d3d0b578bb351a2a74a1de3d929ce26"
+    },
+    {
+      "name": "postgresql-18.1",
+      "url": "https://ftp.postgresql.org/pub/source/v18.1/postgresql-18.1.tar.gz",
+      "bytes": 29294939,
+      "sha256": "b0f18c2d6973d2aa023cfc77feda787d7bbe9c31a3977d0f04ac29885fb98ec4"
+    },
+    {
+      "name": "redis-7.4.1",
+      "url": "https://codeload.github.com/redis/redis/tar.gz/refs/tags/7.4.1",
+      "bytes": 3567859,
+      "sha256": "e85fd212307c8b453ae9361e882b6c1cefcc6a988a6f135faf7ef770a13bb05d"
+    }
+  ]
+}

@@ -9,3 +9,16 @@ Unchanged TLSRef guideline 6.0 JSON is from tlsref/data at
 Its complete license remains in licenses/TLSRef-data-MPL-2.0.txt.
 New code is also MPL-2.0. This does not imply upstream endorsement,
 applicant authorship of TLSRef data or sole human authorship of the new code.
+
+Development-only syntax validation downloads separately licensed official
+Nginx 1.28.0, Apache HTTP Server 2.4.67, APR 1.7.6, APR-util 1.6.3,
+HAProxy 3.0.10, PostgreSQL 18.1 and Redis 7.4.1 checkers. No checker
+implementation, binary or TLS test private key is included in this package.
+Complete license/notice references are preserved in licenses/checkers/;
+their exact source identities and scope are in CHECKER_SOURCES.json.
+The Redis test-only patch is a modification dated 2026-10-02, created
+with AI assistance. Its patch text and added driver are offered under
+the selected Redis 7.4.1 terms (RSALv2 OR SSPLv1). Those terms govern
+the locally modified Redis checker, separately from the new MPL-2.0
+offline generator. This is not an upstream Redis dry-run feature or an
+endorsement by any checker project.

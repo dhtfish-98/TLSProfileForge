@@ -1,0 +1,16 @@
+--- redis-7.4.1/src/server.c
++++ redis-7.4.1/src/server.c.test-driver
+@@ -7138,6 +7138,13 @@
+         if (server.sentinel_mode) loadSentinelConfigFromQueue();
+         sdsfree(options);
+     }
++    /* TLSProfileForge test-only driver: no initServer/listener/event loop. */
++    if (connTypeConfigure(connectionTypeTls(), &server.tls_ctx_config, 1) == C_ERR) {
++        fprintf(stderr, "TLSProfileForge Redis TLS validation FAILED before initServer\n");
++        exit(1);
++    }
++    fprintf(stdout, "TLSProfileForge Redis TLS validation PASS before initServer\n");
++    exit(0);
+     if (server.sentinel_mode) sentinelCheckConfigFile();
+ 
+     /* Do system checks */

@@ -8,3 +8,4 @@ dist/
 .verification/
 .verification*.log
 .ruff_cache/
+validation-local/
