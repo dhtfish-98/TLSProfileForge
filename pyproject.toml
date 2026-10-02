@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools==82.0.1", "wheel==0.48.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tls-profile-forge"
+version = "0.1.0"
+description = "Offline fixed-guideline TLS configuration drafts and capability evidence"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MPL-2.0"
+license-files = ["LICENSE", "NOTICE", "licenses/TLSRef-data-MPL-2.0.txt"]
+dependencies = []
+
+[project.scripts]
+tls-profile-forge = "tls_profile_forge.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+tls_profile_forge = ["py.typed", "data/*.json"]

@@ -1,0 +1,133 @@
+{
+  "project": "TLSProfileForge",
+  "upstream": "tlsref/configurator",
+  "commit": "2a5e549af0b0c63996e0b8de9c93e67052651e38",
+  "selected_files": [
+    {
+      "path": "src/js/configs.js",
+      "bytes": 7125,
+      "sha256": "a8f101e40bb40c550ec679286b9bd986db9c93b3032042833a9dab8c1b4a9e5b",
+      "git_blob_sha1": "51d3ba4259619b29477d1a424541053db4fb21a1",
+      "coverage": "full selected file read; unrelated server templates and build dependencies excluded"
+    },
+    {
+      "path": "src/js/state.js",
+      "bytes": 7166,
+      "sha256": "1315af11062c8284e0f8444fde8b73b8bed3d6d5c49e2349c7937e2992ba3251",
+      "git_blob_sha1": "39e12290969663234bfacd7f7a7a7d78d1b634a0",
+      "coverage": "full selected file read; unrelated server templates and build dependencies excluded"
+    },
+    {
+      "path": "src/js/index.js",
+      "bytes": 8949,
+      "sha256": "25fdc874d0a74cb9cc95897c9ed7cb91d673aadeb26ea3c53aa735ec16b83ac1",
+      "git_blob_sha1": "90bb97cb56d1f5ec830b33724aeedc01606c20b4",
+      "coverage": "full selected file read; unrelated server templates and build dependencies excluded"
+    },
+    {
+      "path": "src/js/analytics.js",
+      "bytes": 4625,
+      "sha256": "16a6498cf6733cfab439873905e09b40897d4a7f2b756c0035bf8e1f549e2a19",
+      "git_blob_sha1": "bbd6ff7445e023aeb40182d13e86f1f2853bcde7",
+      "coverage": "full selected file read; unrelated server templates and build dependencies excluded"
+    },
+    {
+      "path": "src/js/constants.js",
+      "bytes": 900,
+      "sha256": "5b83ca43dcb1cf8b0227ac54ebf0d056d9e55168ffb5cb8d6c2695cf8ad6314b",
+      "git_blob_sha1": "5a05a46623f54342051306ff961cda2d1b91195d",
+      "coverage": "full selected file read; unrelated server templates and build dependencies excluded"
+    },
+    {
+      "path": "src/js/utils.js",
+      "bytes": 359,
+      "sha256": "8ec7152ce614c36fc7fcbe31264b9b1628928f01b0297938a1046d717591ff27",
+      "git_blob_sha1": "248e16cd329a8a678b2bf7d726887cdb0f6de00f",
+      "coverage": "full selected file read; unrelated server templates and build dependencies excluded"
+    },
+    {
+      "path": "src/js/helpers/nginx.js",
+      "bytes": 3467,
+      "sha256": "91eaafbcb06d28651b5ed2ae8ef5257c6e49bb5447c27efb3b9200fa566fdaff",
+      "git_blob_sha1": "42e90f0f3fd412ed1833bcf4a07065dee91daa31",
+      "coverage": "full selected file read; unrelated server templates and build dependencies excluded"
+    },
+    {
+      "path": "src/js/helpers/apache.js",
+      "bytes": 2947,
+      "sha256": "1fb03601bd927cb35eea3ed522e9b1d754c804fd5c565425c2a3837fb6e2093b",
+      "git_blob_sha1": "c125077f1441b6a8bd892a909345503abe7d2f74",
+      "coverage": "full selected file read; unrelated server templates and build dependencies excluded"
+    },
+    {
+      "path": "src/js/helpers/haproxy.js",
+      "bytes": 2740,
+      "sha256": "111f2d2f5a39c84d19c08edf1a47b9b42bd131c14fcd58d358b10de11ac6b6dd",
+      "git_blob_sha1": "6ec4c490bd3e95588ca738e2b42694716282f8bb",
+      "coverage": "full selected file read; unrelated server templates and build dependencies excluded"
+    },
+    {
+      "path": "src/js/helpers/postgresql.js",
+      "bytes": 863,
+      "sha256": "0f775e5a590baae4dc42576294ffabe939f2b4046d9b62c34ce0702d45462cc4",
+      "git_blob_sha1": "e160b42e6b69c6cee53197c8e99fa6b8f9f7cf68",
+      "coverage": "full selected file read; unrelated server templates and build dependencies excluded"
+    },
+    {
+      "path": "src/js/helpers/redis.js",
+      "bytes": 1264,
+      "sha256": "76609c313f6cf1cc62fc06108c8b231664d8331789502bd43e50f0c6ae80493a",
+      "git_blob_sha1": "1fe3f6f26ce83fec788bfd0fdd2ba20c42f9a41b",
+      "coverage": "full selected file read; unrelated server templates and build dependencies excluded"
+    },
+    {
+      "path": "src/js/helpers/minver.js",
+      "bytes": 290,
+      "sha256": "19990dca057c0b9dfeae0736500f7215518e070ce3b97c4a8b4e7c82d39c3127",
+      "git_blob_sha1": "bff099614a415194dbeecb60daa96f959d172ab7",
+      "coverage": "full selected file read; unrelated server templates and build dependencies excluded"
+    },
+    {
+      "path": "src/js/helpers/minpatchver.js",
+      "bytes": 643,
+      "sha256": "0e3da272f4e0ca7082cf0a2b7ca23257d255de26968f1f8c5129a5e7e79939ef",
+      "git_blob_sha1": "0d0d03cf9c79e7ba6a9c4ffad6363bb99f3d31e3",
+      "coverage": "full selected file read; unrelated server templates and build dependencies excluded"
+    },
+    {
+      "path": "src/js/helpers/normalizever.js",
+      "bytes": 498,
+      "sha256": "27aa3da6b947d6bb280fdc99b5bc0af43798f76bfd6cb471a98ee80572bbcb42",
+      "git_blob_sha1": "ac0c1dfe8f5e2f077f780700e8d8e4a1987d99a8",
+      "coverage": "full selected file read; unrelated server templates and build dependencies excluded"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8005,
+      "sha256": "5efddc404d56460b4d18aa04a75d946800c23aa4e1a6282e532885265e52ddc6",
+      "git_blob_sha1": "38cd4e89852fcc5f753f682eaa9f7f6803d82fd0",
+      "coverage": "full selected file read; unrelated server templates and build dependencies excluded"
+    },
+    {
+      "path": "package.json",
+      "bytes": 1534,
+      "sha256": "42d3b22c5a3db2fa5ea6e2babb71c70d5416b6bc79e2e51274aa17f07a3d64f7",
+      "git_blob_sha1": "58e8e86e0f85f4ee9842d3eec33bc30b074e54b4",
+      "coverage": "full selected file read; unrelated server templates and build dependencies excluded"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 16725,
+      "sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5",
+      "git_blob_sha1": "a612ad9813b006ce81d1ee438dd784da99a54007",
+      "coverage": "full selected file read; unrelated server templates and build dependencies excluded"
+    }
+  ],
+  "data": {
+    "repo": "tlsref/data",
+    "commit": "27fecb740fd3e7bbdd2ec04ae75d60177f309f8d",
+    "path": "docs/guidelines/6.0.json",
+    "sha256": "d687ec847524adbba61d46be40182f6cafdd72d8d3720a53b6dfb982acb5c228"
+  },
+  "coverage_limits": "Five named templates and shared runtime read; not all upstream servers or transitive JavaScript build dependency source."
+}
