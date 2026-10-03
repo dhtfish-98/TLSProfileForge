@@ -116,7 +116,7 @@
       "path": "构建.py"
     },
     {
-      "sha256": "bcc75dc9f3208eb936d2cd35190461266b0f3ab45602e82c476eaf5e6ab9305d",
+      "sha256": "df3420be3e43208f24c3d9992a7105addcc6c8d4956bcb895f9e282ff2c34975",
       "bytes": 1909,
       "path": "构建配置.json"
     },
@@ -147,8 +147,8 @@
     },
     {
       "path": "项目文档/SYNTAX_VALIDATION.md",
-      "sha256": "59f1d814bd292ba03b15b47ce451c6159883a735e52055f74812da917c82d007",
-      "bytes": 6185
+      "sha256": "0045d27124968fce4eb5229e79bbc084e9a6b6f4ac83f7811f942f6c1d713dc4",
+      "bytes": 6176
     },
     {
       "path": "项目文档/VALIDATION.md",
@@ -174,11 +174,6 @@
       "path": "项目文档/目录与构建.md",
       "sha256": "3f7599e7a43cd47108377905ec46e6894317d8e574e3f865157e9fc9bc6d7c72",
       "bytes": 816
-    },
-    {
-      "path": "项目文档/历史/目录更新20261003/SOURCE_MANIFEST.json.navigation-e0e116ad1ce5.json",
-      "sha256": "eb643bf49fddf0ea3feb39a87f775ff08d017ffdfe37e1aedfcb9c0fa30e765a",
-      "bytes": 6662
     }
   ],
   "license_cleanup": "Only approved reference-only copies removed; applicable data/code/terms and own LICENSE preserved.",
@@ -188,11 +183,5 @@
     "original_inventory_sha256": "f1ec51e35c5dfe02a69d32396509d346a84565737c77e6b4363ae01a48449195",
     "path_view": "Canonical repository paths; the builder also restores byte-identical legacy aliases under ignored Build for existing packaging checks",
     "scope": "Current file inventory and packaging paths only; runtime bytes/version/API unchanged. Historical validation and security conclusions are retained, not rerun or newly certified."
-  },
-  "supplementary_navigation_maintenance": {
-    "base_public_commit": "e0e116ad1ce53ca6742b9754d79342962d6b751b",
-    "previous_public_inventory": "项目文档/历史/目录更新20261003/SOURCE_MANIFEST.json.navigation-e0e116ad1ce5.json",
-    "previous_public_inventory_sha256": "eb643bf49fddf0ea3feb39a87f775ff08d017ffdfe37e1aedfcb9c0fa30e765a",
-    "scope": "Only current document-navigation/restored-input metadata bytes and this exact previous inventory archive refreshed. Runtime, tests, source capabilities, legal materials, version, and historical validation statements are unchanged; no semantic tests were rerun."
   }
 }
