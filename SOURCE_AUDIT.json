@@ -129,5 +129,11 @@
     "path": "docs/guidelines/6.0.json",
     "sha256": "d687ec847524adbba61d46be40182f6cafdd72d8d3720a53b6dfb982acb5c228"
   },
-  "coverage_limits": "Five named templates and shared runtime read; not all upstream servers or transitive JavaScript build dependency source."
+  "coverage_limits": "Five named templates and shared runtime read; not all upstream servers or transitive JavaScript build dependency source.",
+  "current_implementation": {
+    "version": "0.1.2",
+    "author": "dhtfish98",
+    "source_manifest": "SOURCE_MANIFEST.json",
+    "scope": "Selected finite implementation only; earlier source/code review measurements above describe their original snapshots."
+  }
 }

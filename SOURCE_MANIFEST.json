@@ -1,0 +1,214 @@
+{
+  "schema_version": 1,
+  "project": "TLSProfileForge",
+  "version": "0.1.2",
+  "author": "dhtfish98",
+  "scope": "Current selected implementation and repository files; self manifest excluded to avoid a hash cycle. Upstream source commits remain in ORIGIN/source review records.",
+  "files": [
+    {
+      "path": ".github/workflows/verify.yml",
+      "sha256": "f1c045ab01bca8f9d1a30645c314c4882a163d67e10245db67b5ee935bf5d2f3",
+      "bytes": 1751
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "335a5be3e4d9909fcdfed267c5a84d030db03f5f84137ce2fb54b6198de9ed36",
+      "bytes": 127
+    },
+    {
+      "path": "CHECKER_SOURCES.json",
+      "sha256": "e6ee4e88287410ecbc6ebe6cc1c4a3359fea171861769a2e41545d1ea6a8ac29",
+      "bytes": 6308
+    },
+    {
+      "path": "DEFENSIVE_SCOPE.md",
+      "sha256": "d2c008e5aec981f857e5c4b8a99eae3e63a2a551392bbcffdce48736c3c8c4ee",
+      "bytes": 2135
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5",
+      "bytes": 16725
+    },
+    {
+      "path": "MANIFEST.in",
+      "sha256": "dcbe25b407beafc5bc280c9f3dcb09e546db8d213da19d0300ae70267d7fb359",
+      "bytes": 357
+    },
+    {
+      "path": "NOTICE",
+      "sha256": "b841d837d96bf5e8ef3b110f0845aa5ff568967de4563b85aee18d18791f3aeb",
+      "bytes": 1487
+    },
+    {
+      "path": "ORIGIN.md",
+      "sha256": "dab8ca894eb2a7330259c483f365daa1be7ccfb6b1a54676bb3dd68f55f5deef",
+      "bytes": 2331
+    },
+    {
+      "path": "README.md",
+      "sha256": "ec7668b5370d702d5c68313ac3b0db2a23b43143823f5a93df9a750d7a0dda91",
+      "bytes": 5377
+    },
+    {
+      "path": "SOURCE_AUDIT.json",
+      "sha256": "2b2ab111730956c8f4b441fe9154403e285a546404770fc57b9f76b7bfceb1c2",
+      "bytes": 6336
+    },
+    {
+      "path": "SYNTAX_VALIDATION.md",
+      "sha256": "0045d27124968fce4eb5229e79bbc084e9a6b6f4ac83f7811f942f6c1d713dc4",
+      "bytes": 6176
+    },
+    {
+      "path": "VALIDATION.md",
+      "sha256": "fbe578f6ff3899aac93684f35891a511f9980fbacf06534c1b8fbaf3b87e5f21",
+      "bytes": 5920
+    },
+    {
+      "path": "licenses/TLSRef-data-MPL-2.0.txt",
+      "sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5",
+      "bytes": 16725
+    },
+    {
+      "path": "licenses/checkers/apr-LICENSE.txt",
+      "sha256": "f854aeef66ecd55a126226e82b3f26793fc3b1c584647f6a0edc5639974c38ad",
+      "bytes": 17979
+    },
+    {
+      "path": "licenses/checkers/apr-NOTICE.txt",
+      "sha256": "252c3a65e94f29e17e3e21a850aee2419990fe269ea7bde8329906a3fdf4f5a1",
+      "bytes": 518
+    },
+    {
+      "path": "licenses/checkers/apr-util-LICENSE.txt",
+      "sha256": "ef5609d18601645ad6fe22c6c122094be40e976725c1d0490778abacc836e7a2",
+      "bytes": 21854
+    },
+    {
+      "path": "licenses/checkers/apr-util-NOTICE.txt",
+      "sha256": "05815a0030839ef3c47df300e0db45c0bc8bb8359ec609f1107073ebbcf6bfe0",
+      "bytes": 580
+    },
+    {
+      "path": "licenses/checkers/haproxy-GPL-2.0.txt",
+      "sha256": "ddb9db7630752f8fdc6898f7c99a99eaeeac5213627ecb093df9c82f56175dc7",
+      "bytes": 17990
+    },
+    {
+      "path": "licenses/checkers/haproxy-LGPL-2.1.txt",
+      "sha256": "5df07007198989c622f5d41de8d703e7bef3d0e79d62e24332ee739a452af62a",
+      "bytes": 26436
+    },
+    {
+      "path": "licenses/checkers/haproxy-LICENSE.txt",
+      "sha256": "0717ca51fceaa25ac9e5ccc62e0c727dcf27796057201fb5fded56a25ff6ca28",
+      "bytes": 2029
+    },
+    {
+      "path": "licenses/checkers/httpd-LICENSE.txt",
+      "sha256": "47b8c2b6c3309282a99d4a3001575c790fead690cc14734628c4667d2bbffc43",
+      "bytes": 25479
+    },
+    {
+      "path": "licenses/checkers/httpd-NOTICE.txt",
+      "sha256": "e13ed577b7fb9084118758837ff30d14824ff7efab958000295067428712149c",
+      "bytes": 721
+    },
+    {
+      "path": "licenses/checkers/nginx-LICENSE.txt",
+      "sha256": "77c01620abf36ed747b7eca4bd271e49023fe3a8e2b3525bcf4b09c8e3aa28e4",
+      "bytes": 1319
+    },
+    {
+      "path": "licenses/checkers/postgresql-COPYRIGHT.txt",
+      "sha256": "5ed3ce5c9373dff7f98b1fae7a6c7ccd98df7d734d46d24c1bcebf1240be8307",
+      "bytes": 1198
+    },
+    {
+      "path": "licenses/checkers/redis-7.4.1-LICENSE.txt",
+      "sha256": "abffee3703161c0a6a0cd7f635b2c1ebb3b81bd199e9d18ea89652d678ae4287",
+      "bytes": 37493
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "71a091bd5acdf2cec9d5fd0569c7ce61e3f41891a432423f354e22d91b40f31c",
+      "bytes": 705
+    },
+    {
+      "path": "scripts/build_syntax_checkers.py",
+      "sha256": "f91f01895efad524adbd3a1805909c1f86100723224138633193de63dae4825c",
+      "bytes": 8534
+    },
+    {
+      "path": "scripts/check_official_syntax.py",
+      "sha256": "20d93314905cf7309dcee58f9aa0fc127870239fa2dd585e35449003f400ca49",
+      "bytes": 12574
+    },
+    {
+      "path": "scripts/checker-sources.json",
+      "sha256": "614a36f325e5b5851c0ae1481e1f352406e47dd509489f8bade83483966a1f75",
+      "bytes": 1767
+    },
+    {
+      "path": "scripts/redis_tls_driver.patch",
+      "sha256": "fba0f2d8c973a85b2bcb0a319bd7e6bb8146934961f3f2d83ea90134d649d84e",
+      "bytes": 667
+    },
+    {
+      "path": "src/tls_profile_forge/__init__.py",
+      "sha256": "d54de1f559fd2f536cb4744a5f0bdfb50eeee1d0c834af2321046cc79c1399e1",
+      "bytes": 78
+    },
+    {
+      "path": "src/tls_profile_forge/__main__.py",
+      "sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+      "bytes": 48
+    },
+    {
+      "path": "src/tls_profile_forge/cli.py",
+      "sha256": "e89d1901c966c30f69839371184655161fb07c226c12ece14d7e27f5560f5319",
+      "bytes": 1307
+    },
+    {
+      "path": "src/tls_profile_forge/data/guideline-6.0.json",
+      "sha256": "d687ec847524adbba61d46be40182f6cafdd72d8d3720a53b6dfb982acb5c228",
+      "bytes": 3135
+    },
+    {
+      "path": "src/tls_profile_forge/generator.py",
+      "sha256": "e865bfa4de35af40165f38c0471fa83bc617a507c6d1d00c41f145473cdaf192",
+      "bytes": 8666
+    },
+    {
+      "path": "src/tls_profile_forge/output.py",
+      "sha256": "6985149d911d26f2d857dac75d2110da727bb96e6baf44f4314c89c1bb6008c4",
+      "bytes": 2387
+    },
+    {
+      "path": "src/tls_profile_forge/py.typed",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "src/tls_profile_forge/versions.py",
+      "sha256": "57ac78e22f225e1e09136d19eb2502ea87120a9919a87e233b1145b99135b7a1",
+      "bytes": 974
+    },
+    {
+      "path": "tests/test_capabilities.py",
+      "sha256": "69c7cc37c6af7d06e6a0bcccbee9fbe062c2e5d58c07ca3eaeb8395fd9a4ac00",
+      "bytes": 1945
+    },
+    {
+      "path": "tests/test_dirfd_capabilities.py",
+      "sha256": "47f9002643c33dcd7153701585aa725952638a2d0eabea12b1ed2d9a392b3c9f",
+      "bytes": 5039
+    },
+    {
+      "path": "tests/test_review.py",
+      "sha256": "e9c631bc85fe3fcd3404a5af4187e7680299c293bdef1ea6fa1dfbf21a4051b6",
+      "bytes": 12038
+    }
+  ]
+}

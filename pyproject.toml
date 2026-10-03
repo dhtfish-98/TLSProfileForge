@@ -4,12 +4,14 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "tls-profile-forge"
-version = "0.1.1"
+version = "0.1.2"
 description = "Offline fixed-guideline TLS configuration drafts and capability evidence"
 readme = "README.md"
 requires-python = ">=3.11"
 license = "MPL-2.0"
 license-files = ["LICENSE", "NOTICE", "licenses/TLSRef-data-MPL-2.0.txt", "licenses/checkers/*.txt"]
+authors = [{name = "dhtfish98"}]
+maintainers = [{name = "dhtfish98"}]
 dependencies = []
 
 [project.scripts]

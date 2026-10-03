@@ -5,3 +5,5 @@ recursive-include src *.py py.typed *.json
 recursive-include tests *.py
 recursive-include .github *.yml
 recursive-include scripts *.py *.json *.patch
+
+include SOURCE_MANIFEST.json

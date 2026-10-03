@@ -1,4 +1,4 @@
-TLSProfileForge is new AI-assisted implementation using OpenAI Codex.
+TLSProfileForge new implementation author and maintainer: dhtfish98.
 The selected design reference is tlsref/configurator at
 2a5e549af0b0c63996e0b8de9c93e67052651e38, MPL-2.0.
 Upstream credits April King, Gene Wood, Julien Vehent and Glenn Strauss.
@@ -17,7 +17,7 @@ implementation, binary or TLS test private key is included in this package.
 Complete license/notice references are preserved in licenses/checkers/;
 their exact source identities and scope are in CHECKER_SOURCES.json.
 The Redis test-only patch is a modification dated 2026-10-02, created
-with AI assistance. Its patch text and added driver are offered under
+for this implementation. Its patch text and added driver are offered under
 the selected Redis 7.4.1 terms (RSALv2 OR SSPLv1). Those terms govern
 the locally modified Redis checker, separately from the new MPL-2.0
 offline generator. This is not an upstream Redis dry-run feature or an

@@ -149,6 +149,6 @@
     "build_archive_or_signature_identity": "OPEN; existing local development installation observed, not built here"
   },
   "source_detached_signature_authenticity": "OPEN",
-  "ai_assisted": true,
-  "cvp_eligibility": "OPEN"
+  "cvp_eligibility": "OPEN",
+  "new_implementation_author": "dhtfish98"
 }

@@ -13,8 +13,13 @@ def write_new(path, text):
     if not raw or len(raw) > 65536:
         raise ValueError("output_budget")
     if (
-        not all(hasattr(os, x) for x in ("O_NOFOLLOW", "O_DIRECTORY"))
+        any(type(getattr(os, x, None)) is not int or getattr(os, x, 0) <= 0
+                for x in ("O_NOFOLLOW", "O_DIRECTORY"))
+        or type(getattr(os, "supports_dir_fd", None)) not in (set, frozenset)
         or os.open not in os.supports_dir_fd
+        or os.stat not in os.supports_dir_fd
+        or type(getattr(os, "supports_follow_symlinks", None)) not in (set, frozenset)
+        or os.stat not in os.supports_follow_symlinks
     ):
         raise ValueError("output_facility")
     parts = path.split("/")

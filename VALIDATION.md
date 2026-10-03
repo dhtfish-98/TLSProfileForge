@@ -1,8 +1,22 @@
+## Current version 0.1.2: attribution and bounded verification, 2026-10-03
+
+New implementation author and maintainer: dhtfish98. Package version: `0.1.2`.
+
+Required local reader/writer protection flags now require positive non-Boolean integers. Missing, zero, None, Boolean, string and floating-point values yield controlled OPEN/error before requested filesystem input/output. Existing fixed-source provenance and parser/generation scope are retained.
+
+The current source suite passes 22 tests on Python 3.14/macOS arm64. Final wheel and sdist are built from the final files. A fresh consumer installation also passes 22 tests. Installed/source/wheel runtime bytes, licenses, retained upstream notices, RECORD and command contracts are verified separately before publication. Exact package hashes and execution receipts are recorded externally rather than embedded in this self-referential document.
+
+These tests verify the documented finite profile. Historical native/reference measurements below are preserved; they are not new runs for this revision. Matching remote CI, actual deployments, applicant identity and CVP approval remain OPEN until separately evidenced.
+
+The current directory-relative file contract also requires `os.supports_dir_fd` to be a set or frozenset containing the actual `os.open`. Missing, None, malformed and incomplete declarations yield the existing controlled OPEN/error before requested filesystem I/O. The output identity check additionally requires `os.stat` directory-relative and no-follow support. The same current suite covers these API and real installed CLI contrasts, including normal frozenset capability declarations. Trusted CLI and standard-library imports are warmed before simulated capability mutation; this test isolates the application gate rather than a damaged standard-library import. Source archive offline rebuilding and another fresh consumer verify the same suite and all uncompressed wheel payload bytes.
+
+## Prior verification evidence
+
 # Local evidence and remaining checks
 
 19 test methods pass on local Python 3.14/macOS. The version/capability matrix includes 288 combinations across all five services, two profiles and six OpenSSL versions, including both sides of known boundaries. Repeated generation is byte-identical. Additional cases check numeric/letter ordering, unknown/injected input, data integrity drift, two cipher naming formats, exact modern protocol retention, explicit PQ filtering, HAProxy endpoint differences, PostgreSQL 18 additions, Redis limitations, network prohibition, output budgets/symlinks/overwrite refusal, partial writes and a concurrent replacement failure that must not delete the replacement.
 
-An independent AI-assisted review read the new runtime and checked primary capability references. Its two requested changes—accurate HAProxy endpoint-group evidence and removal of non-atomic failure cleanup—are implemented and regression-tested. This is not independent human review or a formal server-security audit.
+A separate implementation review read the new runtime and checked primary capability references. Its two requested changes—accurate HAProxy endpoint-group evidence and removal of non-atomic failure cleanup—are implemented and regression-tested. This is not independent human review or a formal server-security audit.
 
 The original local inventory found system Apache/2.4.67 at /usr/sbin/httpd. All four isolated -t attempts rejected TLSv1.3 as an illegal protocol. That system module still does not satisfy the asserted TLS capability profile, and its actual linked library remains OPEN. This failure has not been relabeled as a passing check or worked around by removing TLS 1.3.
 
