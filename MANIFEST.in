@@ -1,5 +1,5 @@
-include LICENSE NOTICE README.md ORIGIN.md VALIDATION.md DEFENSIVE_SCOPE.md SOURCE_AUDIT.json
-include SYNTAX_VALIDATION.md CHECKER_SOURCES.json
+include 项目文档/LICENSE 项目文档/NOTICE 项目文档/README.md 项目文档/ORIGIN.md 项目文档/VALIDATION.md 项目文档/DEFENSIVE_SCOPE.md SOURCE_AUDIT.json
+include 项目文档/SYNTAX_VALIDATION.md CHECKER_SOURCES.json
 recursive-include licenses *.txt
 recursive-include src *.py py.typed *.json
 recursive-include tests *.py
@@ -7,3 +7,18 @@ recursive-include .github *.yml
 recursive-include scripts *.py *.json *.patch
 
 include SOURCE_MANIFEST.json
+
+# Directory layout: canonical docs and source build entry; generated trees are not sdist inputs.
+graft 项目文档
+include 构建.py 构建配置.json
+prune Build/源码
+prune Build/新构建
+prune Build/输出
+prune Build/环境
+prune Build/缓存
+prune Build/中间
+prune Build/临时
+global-exclude __pycache__ *.py[cod] .DS_Store
+
+# Original logical paths exist only in the staged compatibility view.
+include DEFENSIVE_SCOPE.md LICENSE NOTICE ORIGIN.md README.md SYNTAX_VALIDATION.md VALIDATION.md licenses/TLSRef-data-MPL-2.0.txt licenses/checkers/redis-7.4.1-LICENSE.txt

@@ -1,0 +1,55 @@
+{
+  "schema": "project-build-layout.v1",
+  "project": "TLSProfileForge",
+  "author": "dhtfish98",
+  "kind": "python",
+  "base_public_commit": "f45351915c63c538392f17e126f8fe4384ece9fc",
+  "restored_inputs": [
+    {
+      "original": "DEFENSIVE_SCOPE.md",
+      "stored": "项目文档/DEFENSIVE_SCOPE.md",
+      "sha256": "d2c008e5aec981f857e5c4b8a99eae3e63a2a551392bbcffdce48736c3c8c4ee"
+    },
+    {
+      "original": "LICENSE",
+      "stored": "项目文档/LICENSE",
+      "sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5"
+    },
+    {
+      "original": "NOTICE",
+      "stored": "项目文档/NOTICE",
+      "sha256": "b9bd42a52ada152801552c3918370a54a7d880593a31afd72d21a45a23040a8b"
+    },
+    {
+      "original": "ORIGIN.md",
+      "stored": "项目文档/ORIGIN.md",
+      "sha256": "dab8ca894eb2a7330259c483f365daa1be7ccfb6b1a54676bb3dd68f55f5deef"
+    },
+    {
+      "original": "README.md",
+      "stored": "项目文档/README.md",
+      "sha256": "5702f23bad47d5950ff8c0e3b1f66145a7b16eb807b4f67bbaee7c97709ff809"
+    },
+    {
+      "original": "SYNTAX_VALIDATION.md",
+      "stored": "项目文档/SYNTAX_VALIDATION.md",
+      "sha256": "0045d27124968fce4eb5229e79bbc084e9a6b6f4ac83f7811f942f6c1d713dc4"
+    },
+    {
+      "original": "VALIDATION.md",
+      "stored": "项目文档/VALIDATION.md",
+      "sha256": "d9680924f707377c721bac34e53b375d716ff566aff9bede47b05c659e4e621f"
+    },
+    {
+      "original": "licenses/TLSRef-data-MPL-2.0.txt",
+      "stored": "项目文档/licenses/TLSRef-data-MPL-2.0.txt",
+      "sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5"
+    },
+    {
+      "original": "licenses/checkers/redis-7.4.1-LICENSE.txt",
+      "stored": "项目文档/licenses/checkers/redis-7.4.1-LICENSE.txt",
+      "sha256": "abffee3703161c0a6a0cd7f635b2c1ebb3b81bd199e9d18ea89652d678ae4287"
+    }
+  ],
+  "platform_entries": []
+}

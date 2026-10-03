@@ -9,3 +9,10 @@ dist/
 .verification*.log
 .ruff_cache/
 validation-local/
+
+# All generated build outputs and staging are local.
+!/Build/
+/Build/*
+!/Build/.gitignore
+__pycache__/
+*.py[cod]

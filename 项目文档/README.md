@@ -1,3 +1,5 @@
+> 目录已整理：文档在「项目文档」，构建、缓存与暂存输入在「Build」。从仓库根目录运行 `python3 构建.py --build`；如需使用本文原有源码命令，先运行 `python3 构建.py --stage --ci`，再进入 `Build/源码`。暂存会恢复原输入路径。现有版本和历史验证记录按各自提交理解。
+
 # TLSProfileForge
 
 New implementation author and maintainer: dhtfish98.
@@ -33,7 +35,7 @@ Certificate/key paths are static placeholders; replace them and review the surro
 
 Output creation requires existing real directory components, POSIX directory-relative open and O_NOFOLLOW. Existing paths, symlink components, raw dot/parent components and missing directories are rejected. On macOS, aliases such as /tmp and /var are symlinks: supply their physical /private paths. File mode is 0600; text is capped at 64 KiB. Writes loop until complete and fsync the descriptor; observed path replacement is OPEN. Failed writes can leave a partial newly created file. No failure cleanup deletes a path, and no protection against all concurrent renames or post-return replacements is claimed. Ordinary/error output uses sanitized JSON; explicit --help is informational.
 
-See [ORIGIN.md](ORIGIN.md), [DEFENSIVE_SCOPE.md](DEFENSIVE_SCOPE.md), [VALIDATION.md](VALIDATION.md) and the separate development-only [official syntax validation](SYNTAX_VALIDATION.md). Engineering tests and syntax evidence do not establish applicant identity, an actual safeguard obstacle or CVP approval.
+See [ORIGIN.md](<ORIGIN.md>), [DEFENSIVE_SCOPE.md](<DEFENSIVE_SCOPE.md>), [VALIDATION.md](<VALIDATION.md>) and the separate development-only [official syntax validation](<SYNTAX_VALIDATION.md>). Engineering tests and syntax evidence do not establish applicant identity, an actual safeguard obstacle or CVP approval.
 
 Local file I/O requires the positive integer OS protection flags documented by
 the reader/writer. Missing, zero, None, Boolean or non-integer flags return a
