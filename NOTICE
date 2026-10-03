@@ -1,7 +1,6 @@
 TLSProfileForge new implementation author and maintainer: dhtfish98.
 The selected design reference is tlsref/configurator at
 2a5e549af0b0c63996e0b8de9c93e67052651e38, MPL-2.0.
-Upstream credits April King, Gene Wood, Julien Vehent and Glenn Strauss.
 No upstream JavaScript implementation or build dependencies are distributed.
 
 Unchanged TLSRef guideline 6.0 JSON is from tlsref/data at
@@ -12,10 +11,14 @@ applicant authorship of TLSRef data or sole human authorship of the new code.
 
 Development-only syntax validation downloads separately licensed official
 Nginx 1.28.0, Apache HTTP Server 2.4.67, APR 1.7.6, APR-util 1.6.3,
-HAProxy 3.0.10, PostgreSQL 18.1 and Redis 7.4.1 checkers. No checker
-implementation, binary or TLS test private key is included in this package.
-Complete license/notice references are preserved in licenses/checkers/;
-their exact source identities and scope are in CHECKER_SOURCES.json.
+HAProxy 3.0.10, PostgreSQL 18.1 and Redis 7.4.1 checkers. No complete checker
+source tree, binary or TLS test private key is included in this package.
+External checker sources retain their original licenses/notices in separately
+downloaded development trees. No complete checker source tree or binary is bundled;
+unused static license copies were removed. Scoped Redis patch/driver terms remain
+in licenses/checkers/redis-7.4.1-LICENSE.txt. Exact source identities and scope
+are in CHECKER_SOURCES.json.
+The Redis patch includes unchanged upstream source-context lines.
 The Redis test-only patch is a modification dated 2026-10-02, created
 for this implementation. Its patch text and added driver are offered under
 the selected Redis 7.4.1 terms (RSALv2 OR SSPLv1). Those terms govern

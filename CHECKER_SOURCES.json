@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "scope": "External development-only official checker references; no checker implementation or binary redistributed; new generator and tooling remain separately licensed",
+  "scope": "External development-only official checker references; no complete checker source tree or binary redistributed. The included Redis patch has upstream source-context lines and a scoped driver grant; generator/tooling are separately licensed.",
   "archive_sources": [
     {
       "name": "nginx-1.28.0",
@@ -47,83 +47,6 @@
   ],
   "license_references": [
     {
-      "path": "licenses/checkers/apr-LICENSE.txt",
-      "bytes": 17979,
-      "sha256": "f854aeef66ecd55a126226e82b3f26793fc3b1c584647f6a0edc5639974c38ad",
-      "terms": "Apache-2.0 plus included subcomponent notices",
-      "complete_original_text_preserved": true
-    },
-    {
-      "path": "licenses/checkers/apr-NOTICE.txt",
-      "bytes": 518,
-      "sha256": "252c3a65e94f29e17e3e21a850aee2419990fe269ea7bde8329906a3fdf4f5a1",
-      "terms": "Apache-2.0 plus included subcomponent notices",
-      "complete_original_text_preserved": true
-    },
-    {
-      "path": "licenses/checkers/apr-util-LICENSE.txt",
-      "bytes": 21854,
-      "sha256": "ef5609d18601645ad6fe22c6c122094be40e976725c1d0490778abacc836e7a2",
-      "terms": "Apache-2.0 plus included subcomponent notices",
-      "complete_original_text_preserved": true
-    },
-    {
-      "path": "licenses/checkers/apr-util-NOTICE.txt",
-      "bytes": 580,
-      "sha256": "05815a0030839ef3c47df300e0db45c0bc8bb8359ec609f1107073ebbcf6bfe0",
-      "terms": "Apache-2.0 plus included subcomponent notices",
-      "complete_original_text_preserved": true
-    },
-    {
-      "path": "licenses/checkers/haproxy-GPL-2.0.txt",
-      "bytes": 17990,
-      "sha256": "ddb9db7630752f8fdc6898f7c99a99eaeeac5213627ecb093df9c82f56175dc7",
-      "terms": "GPL-2.0 core; LGPL-2.1 headers; stated OpenSSL linking exception",
-      "complete_original_text_preserved": true
-    },
-    {
-      "path": "licenses/checkers/haproxy-LGPL-2.1.txt",
-      "bytes": 26436,
-      "sha256": "5df07007198989c622f5d41de8d703e7bef3d0e79d62e24332ee739a452af62a",
-      "terms": "GPL-2.0 core; LGPL-2.1 headers; stated OpenSSL linking exception",
-      "complete_original_text_preserved": true
-    },
-    {
-      "path": "licenses/checkers/haproxy-LICENSE.txt",
-      "bytes": 2029,
-      "sha256": "0717ca51fceaa25ac9e5ccc62e0c727dcf27796057201fb5fded56a25ff6ca28",
-      "terms": "GPL-2.0 core; LGPL-2.1 headers; stated OpenSSL linking exception",
-      "complete_original_text_preserved": true
-    },
-    {
-      "path": "licenses/checkers/httpd-LICENSE.txt",
-      "bytes": 25479,
-      "sha256": "47b8c2b6c3309282a99d4a3001575c790fead690cc14734628c4667d2bbffc43",
-      "terms": "Apache-2.0 plus included subcomponent notices",
-      "complete_original_text_preserved": true
-    },
-    {
-      "path": "licenses/checkers/httpd-NOTICE.txt",
-      "bytes": 721,
-      "sha256": "e13ed577b7fb9084118758837ff30d14824ff7efab958000295067428712149c",
-      "terms": "Apache-2.0 plus included subcomponent notices",
-      "complete_original_text_preserved": true
-    },
-    {
-      "path": "licenses/checkers/nginx-LICENSE.txt",
-      "bytes": 1319,
-      "sha256": "77c01620abf36ed747b7eca4bd271e49023fe3a8e2b3525bcf4b09c8e3aa28e4",
-      "terms": "BSD-2-Clause",
-      "complete_original_text_preserved": true
-    },
-    {
-      "path": "licenses/checkers/postgresql-COPYRIGHT.txt",
-      "bytes": 1198,
-      "sha256": "5ed3ce5c9373dff7f98b1fae7a6c7ccd98df7d734d46d24c1bcebf1240be8307",
-      "terms": "PostgreSQL License",
-      "complete_original_text_preserved": true
-    },
-    {
       "path": "licenses/checkers/redis-7.4.1-LICENSE.txt",
       "bytes": 37493,
       "sha256": "abffee3703161c0a6a0cd7f635b2c1ebb3b81bd199e9d18ea89652d678ae4287",
@@ -150,5 +73,6 @@
   },
   "source_detached_signature_authenticity": "OPEN",
   "cvp_eligibility": "OPEN",
-  "new_implementation_author": "dhtfish98"
+  "new_implementation_author": "dhtfish98",
+  "external_checker_notice_scope": "Non-Redis checker implementations/binaries are not redistributed. Original notices remain in separately downloaded development source trees; redundant static copies are not bundled. Redis patch/driver terms remain separately."
 }
