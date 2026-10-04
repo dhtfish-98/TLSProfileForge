@@ -1,4 +1,4 @@
-include 项目文档/LICENSE 项目文档/NOTICE 项目文档/README.md 项目文档/ORIGIN.md 项目文档/VALIDATION.md 项目文档/DEFENSIVE_SCOPE.md SOURCE_AUDIT.json
+include 项目文档/LICENSE 项目文档/NOTICE 项目文档/README.md 项目文档/ORIGIN.md 项目文档/VALIDATION.md 项目文档/DEFENSIVE_SCOPE.md 项目文档/SOURCE_AUDIT.json
 include 项目文档/SYNTAX_VALIDATION.md CHECKER_SOURCES.json
 recursive-include licenses *.txt
 recursive-include src *.py py.typed *.json
