@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "project": "TLSProfileForge",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "author": "dhtfish98",
   "scope": "Current selected implementation and repository files; self manifest excluded to avoid a hash cycle. Upstream source commits remain in ORIGIN/source review records.",
   "files": [
@@ -27,7 +27,7 @@
     },
     {
       "path": "pyproject.toml",
-      "sha256": "7004b58c6c623e8b575b2065908a4006775ae6fe60e30b707f49f77eb9a1df73",
+      "sha256": "7aa8aa7aa7f14b0a5183fe44e7d72689d12003c8242617ad8bb508afcdc9a799",
       "bytes": 788
     },
     {
@@ -52,7 +52,7 @@
     },
     {
       "path": "src/tls_profile_forge/__init__.py",
-      "sha256": "06602a10c9d065ce5f45b7beb335dcdd957a8c43e3fecda8c9f3c91c935c1e63",
+      "sha256": "344643ab6f868917d773fc8c3ea813d4a984196dc95d9796e9d1a2e2b3e87939",
       "bytes": 78
     },
     {
@@ -111,7 +111,7 @@
       "path": "构建.py"
     },
     {
-      "sha256": "63a44e77a7d7339df9ace411f5f4e58e8e41fb4988b50cb51defdb10adf6888d",
+      "sha256": "15190dd9997a94a9e12f676ee04bf69b460638220df6f339fe2980517b25ea39",
       "bytes": 2094,
       "path": "构建配置.json"
     },
@@ -152,8 +152,8 @@
     },
     {
       "path": "项目文档/VALIDATION.md",
-      "sha256": "d9680924f707377c721bac34e53b375d716ff566aff9bede47b05c659e4e621f",
-      "bytes": 7260
+      "sha256": "0a234081e87da425b7f14b6621dbca6967323e843b7c17dd10fbcf443c277eba",
+      "bytes": 7392
     },
     {
       "path": "项目文档/licenses/TLSRef-data-MPL-2.0.txt",
